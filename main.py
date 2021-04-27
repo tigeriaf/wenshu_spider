@@ -15,7 +15,7 @@ for i in range(1, page_total+1):
     # 重试机制
     Attempts = 0
     Success = False
-    while Attempts < 10 and not Success:
+    while Attempts < 3 and not Success:
         try:
             # 查询第i页doc_id列表
             list_dict = list_spider(page=i, cookie=cookie)

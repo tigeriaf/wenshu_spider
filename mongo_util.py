@@ -2,10 +2,9 @@ from pymongo import MongoClient
 
 
 settings = {
-    # "ip": '64.115.5.33',  # ip
     "ip": '127.0.0.1',  # ip
     "port": 27017,  # 端口
-    "db_name": "wenchuwang_result",
+    "db_name": "wenshuwang_result",
 }
 
 

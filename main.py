@@ -1,8 +1,8 @@
 import time
 
-from detail_page import detail_spider
-from list_page import list_spider
-from login_page import login
+from get__doc_detail import detail_spider
+from get_doc_id_list import list_spider
+from login import login
 
 cookie = {'SESSION': str(login()[0][1])}
 
